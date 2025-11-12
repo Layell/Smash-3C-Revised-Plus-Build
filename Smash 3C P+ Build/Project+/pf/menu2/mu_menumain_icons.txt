@@ -1,0 +1,19 @@
+MenuMain_en
+Data 11 is for replay and wifi icons
+
+Replay icons also in \pf\menu\collection
+
+also in sc_sel_event MiscData[40]
+
+
+Stage icons: 
+Misc Data [0]
+
+Random Stage Select banners:
+MenuRule_en > Model Data [0]
+
+Replay stage icons in menu > collection > Replay
+
+Selchar2 has the Random stage select
+
+mu_menummain Misc Data [0] also has stage icons and stage previews
