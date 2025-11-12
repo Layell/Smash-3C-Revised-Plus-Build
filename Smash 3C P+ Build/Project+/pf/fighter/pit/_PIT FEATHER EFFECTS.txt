@@ -1,0 +1,5 @@
+Subroutine: 13EA0
+
+Notable changes in this for 3C is adding black check for 35 and 62 alongside LA BASIC 20
+
+Turning the check that was 62 to 36
