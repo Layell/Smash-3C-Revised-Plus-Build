@@ -1,5 +1,0 @@
-3C P+ Build: Known Issues
-
--OoT Link will have issues in metal mode
-
--Giga Dry Bowser will have issues with neutral B fire
