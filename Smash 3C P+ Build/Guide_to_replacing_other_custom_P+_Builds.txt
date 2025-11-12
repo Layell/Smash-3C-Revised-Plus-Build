@@ -1,0 +1,68 @@
+Simple Guide to replacing any P+ build with 3C costumes.
+
+This would be for builds that are modified based on P+, such as builds with different stages/tracks/other features. You can otherwise just use this build in your SD card or virtual SD card.
+
+Note: May not work for heavily modified P+ builds, or P+ EX Builds.
+
+1. Download the Smash 3C P+ Build: http://forums.kc-mm.com/Gallery/BrawlView.php?Number=218872
+
+2. Have your other build on hand, go to the Project+ > pf folder. (Note: Some builds may replace "Project+" with some other build name)
+
+3. Delete the fighter and info folders in full.
+
+4. Copy the fighter and info folders from the 3C build to the other build.
+
+5. Go into the 3C info2 folder, and open info.pac in BrawlCrate. Right-click "MiscData[30]" and choose to export that file to a temporary folder.
+
+6. Go into the other build, and then open up their info.pac in the info2 folder. 
+
+You have two options here. 
+
+If the other build has not modified the in-battle interface, just replace MiscData[30] with the one from the 3C build. Then go to step 7 below.
+
+If they have modified the interface (example: Project Wave), instead use following the below options.
+
+___________________________________
+
+	A: Open up their MiscData[30], and right-click the "Textures" folder, delete this. Do the same for the "Palletes" folder.
+
+	B: Right-click the blue "ARC info_en" at the top, and choose to import a BRResrouce pack, import the "MiscData[30]" from the 3C build.
+	
+	C: From your imported bres, expand it, grab the textures folder, and drag it into MiscData[30]. Do the same for the palettes folder too.
+
+	D: Save info.pac. Then delete the imported MiscData[0] you stole the textures and palettes from
+
+	E: Go back to MiscData[30], open the textures folder, and scroll down to a characters stock icon, make sure it looks good, then right-click one and choose "Generate PAT0".
+
+	F: Save, and exit
+___________________________________
+
+
+7. Go to pf > menu, and copy the "common" folder from 3C into the other build in the same location.
+
+8. Go to pf > menu2 in the 3C build and open up sc_selcharacter.pac.
+
+9. You will export: char_bust_tex_lz77, Misc Data [70], and Misc Data [90] to a temporary folder.
+
+10. Open the other builds sc_selcharacter.pac and replace all of the above with the ones from 3C. If you want to keep the CSS icons from the other build howere, you can opt to not replace Misc Data [70].
+
+11. In the 3C module file, copy the "ft_iceclimber" and "ft_wario" files, and replace the same ones in the other build.
+
+12. From the other build, open the pf > stage > melee folder, and open STGRESULT.pac
+
+13. Open Arc 2 in the STGRESULT.pac, scroll down to Misc Data [120], and replace this with Misc Data [90] from before in your temporary folder.
+
+14. Open the MiscData[120], and right-click a stock icon. Select "Generate PAT0".
+
+15. A folder called "AnmTexPat(NW4R)" will appear, and you will see a PAT file called "InfStockface_TopN__0". Right-click this pat file, and choose to export it to your temporary folder.
+
+16. Delete "InfStockface_TopN__0" from Misc Data [120].
+
+17. Go up to Misc Data [110], open up AnmTexPat(NW4R), and find InfStockface_TopN__0, right-click that PAT, and replace it with the one in your temporary folder.
+
+18. Save your STGRESULT.pac file.
+
+19. Your build is ready to play.
+
+
+
