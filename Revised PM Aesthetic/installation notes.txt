@@ -1,0 +1,5 @@
+This add-on changes the menu aesthetics of the 3C build to our Revised Project M aesthetic. Merge this with the existing Project+ file.
+
+This does come with updated RSBE01 codes as there is a changed CSS code to account for the new roster order.
+
+HD textures are pre-included in the P+ HD texture download here: https://mega.nz/folder/Y9FxWJSb#AkT1F_f7dKziVTY_f4d_vg
