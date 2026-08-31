@@ -13,3 +13,5 @@ Current Known Issues:
 3C P+ Build: Known Issues
 
 -OoT Link will have issues in metal mode
+
+Alternate Download: https://mega.nz/folder/99FAxAZB#rx_1jGuv_gFCL57chMnw8Q
