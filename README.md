@@ -1,6 +1,6 @@
 This is the Smash 3C Version of Project Plus.
 
-Current Version: 3.1.5
+Current Version: 3.2
 
 Some additional Notes:
 
