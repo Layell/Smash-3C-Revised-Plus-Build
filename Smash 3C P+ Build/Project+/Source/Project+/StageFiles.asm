@@ -465,7 +465,7 @@ HOOK @ $80930300
 unusual:				//Those two stage types demand hardcoded pointers
   rlwinm r0, r3, 2, 0, 29
 }	
-	
+
 ########################################################
 Custom Stage SD File Loader [DukeItOut, Kapedani, bugfix by mawwwk]
 # 

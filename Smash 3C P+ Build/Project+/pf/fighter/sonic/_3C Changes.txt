@@ -1,0 +1,3 @@
+Offset
+
+2e5AC: Adds a check for costume 35 alongside costumes 4, 12, and 24
