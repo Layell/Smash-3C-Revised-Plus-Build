@@ -1,6 +1,6 @@
 This is the Smash 3C Version of Project Plus.
 
-Current Version: 3.2
+Current Version: 3.2.1
 
 Some additional Notes:
 
@@ -11,7 +11,5 @@ For HD Textures, pleaes also download: https://github.com/Layell/Smash-3C-HD-Tex
 Current Known Issues:
 
 3C P+ Build: Known Issues
-
--OoT Link will have issues in metal mode
 
 Alternate Download: https://mega.nz/folder/99FAxAZB#rx_1jGuv_gFCL57chMnw8Q
